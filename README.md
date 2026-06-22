@@ -12,13 +12,13 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 # 📚 Structured Problem Solving Topics
 
 
-### General
+### Array
 <details>
-<summary>Click to expand General problems</summary>
+<summary>Click to expand Array problems</summary>
 
 | # | Problem | Difficulty |
 |---|---------|------------|
-| — | [Two Sum](./General/Two%20Sum/) | Medium |
+| 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
 
 </details>
 
