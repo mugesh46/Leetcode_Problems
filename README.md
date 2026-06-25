@@ -19,6 +19,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 1 | [Two Sum](./Array/Two%20Sum/) | Easy |
+| 16 | [3Sum Closest](./Array/3Sum%20Closest/) | Medium |
 | 200 | [Number of Islands](./Array/Number%20of%20Islands/) | Medium |
 | 1695 | [Maximum Erasure Value](./Array/Maximum%20Erasure%20Value/) | Medium |
 
