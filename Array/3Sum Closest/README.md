@@ -1,42 +1,56 @@
 # 16. 3Sum Closest
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/3sum-closest/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
 
 ## Problem Statement
 
-<p>Given an integer array <code>nums</code> of length <code>n</code> and an integer <code>target</code>, find three integers at <strong>distinct indices</strong> in <code>nums</code> such that the sum is closest to <code>target</code>.</p>
+Given an integer array nums of length n and an integer target, find three integers at distinct indices in nums such that the sum is closest to target.
 
-<p>Return <em>the sum of the three integers</em>.</p>
+Return the sum of the three integers.
 
-<p>You may assume that each input would have exactly one solution.</p>
+You may assume that each input would have exactly one solution.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> nums = [-1,2,1,-4], target = 1
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
-</pre>
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> nums = [0,0,0], target = 1
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
-</pre>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: nums = [0,0,0], target = 1
+Output: 0
+Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 
-<ul>
-	<li><code>3 &lt;= nums.length &lt;= 500</code></li>
-	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
-	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
-</ul>
 
+ 
+Constraints:
+
+
+	3 <= nums.length <= 500
+	-1000 <= nums[i] <= 1000
+	-104 <= target <= 104
+
+## Examples
+
+```
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+Input: nums = [0,0,0], target = 1
+Output: 0
+Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
+```
+
+## Constraints
+
+- 3 <= nums.length <= 500
+- -1000 <= nums[i] <= 1000
+- -104 <= target <= 104
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
