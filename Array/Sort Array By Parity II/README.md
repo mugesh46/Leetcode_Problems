@@ -5,41 +5,56 @@
 
 ## Problem Statement
 
-<p>Given an array of integers <code>nums</code>, half of the integers in <code>nums</code> are <strong>odd</strong>, and the other half are <strong>even</strong>.</p>
+Given an array of integers nums, half of the integers in nums are odd, and the other half are even.
 
-<p>Sort the array so that whenever <code>nums[i]</code> is odd, <code>i</code> is <strong>odd</strong>, and whenever <code>nums[i]</code> is even, <code>i</code> is <strong>even</strong>.</p>
+Sort the array so that whenever nums[i] is odd, i is odd, and whenever nums[i] is even, i is even.
 
-<p>Return <em>any answer array that satisfies this condition</em>.</p>
+Return any answer array that satisfies this condition.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> nums = [4,2,5,7]
-<strong>Output:</strong> [4,5,2,7]
-<strong>Explanation:</strong> [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
-</pre>
+Input: nums = [4,2,5,7]
+Output: [4,5,2,7]
+Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> nums = [2,3]
-<strong>Output:</strong> [2,3]
-</pre>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: nums = [2,3]
+Output: [2,3]
 
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 2 * 10<sup>4</sup></code></li>
-	<li><code>nums.length</code> is even.</li>
-	<li>Half of the integers in <code>nums</code> are even.</li>
-	<li><code>0 &lt;= nums[i] &lt;= 1000</code></li>
-</ul>
 
-<p>&nbsp;</p>
-<p><strong>Follow Up:</strong> Could you solve it in-place?</p>
+ 
+Constraints:
 
+
+	2 <= nums.length <= 2 * 104
+	nums.length is even.
+	Half of the integers in nums are even.
+	0 <= nums[i] <= 1000
+
+
+ 
+Follow Up: Could you solve it in-place?
+
+## Examples
+
+```
+Input: nums = [4,2,5,7]
+Output: [4,5,2,7]
+Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
+
+Input: nums = [2,3]
+Output: [2,3]
+```
+
+## Constraints
+
+- 2 <= nums.length <= 2 * 104
+- nums.length is even.
+- Half of the integers in nums are even.
+- 0 <= nums[i] <= 1000
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
