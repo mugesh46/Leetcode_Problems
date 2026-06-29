@@ -1,0 +1,7 @@
+            if(dup.contains(nums[i])){
+                return true;
+            }
+        for(int i=0;i<nums.length;i++){
+        HashSet<Integer> dup =new HashSet<>();
+    public boolean containsDuplicate(int[] nums) {
+class Solution {
