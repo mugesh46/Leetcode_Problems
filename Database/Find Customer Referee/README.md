@@ -5,9 +5,8 @@
 
 ## Problem Statement
 
-<p>Table: <code>Customer</code></p>
+Table: Customer
 
-<pre>
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -17,26 +16,25 @@
 +-------------+---------+
 In SQL, id is the primary key column for this table.
 Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
-</pre>
 
-<p>&nbsp;</p>
 
-<p>Find the names of the customer that are either:</p>
+ 
 
-<ol>
-	<li><strong>referred by</strong>&nbsp;any&nbsp;customer with&nbsp;<code>id != 2</code>.</li>
-	<li><strong>not referred by</strong> any customer.</li>
-</ol>
+Find the names of the customer that are either:
 
-<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>The result format is in the following example.</p>
+	referred by any customer with id != 2.
+	not referred by any customer.
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
 
-<pre>
-<strong>Input:</strong> 
+Return the result table in any order.
+
+The result format is in the following example.
+
+ 
+Example 1:
+
+Input: 
 Customer table:
 +----+------+------------+
 | id | name | referee_id |
@@ -48,7 +46,7 @@ Customer table:
 | 5  | Zack | 1          |
 | 6  | Mark | 2          |
 +----+------+------------+
-<strong>Output:</strong> 
+Output: 
 +------+
 | name |
 +------+
@@ -57,8 +55,32 @@ Customer table:
 | Bill |
 | Zack |
 +------+
-</pre>
 
+## Examples
+
+```
+Input: 
+Customer table:
++----+------+------------+
+| id | name | referee_id |
++----+------+------------+
+| 1  | Will | null       |
+| 2  | Jane | null       |
+| 3  | Alex | 2          |
+| 4  | Bill | null       |
+| 5  | Zack | 1          |
+| 6  | Mark | 2          |
++----+------+------------+
+Output: 
++------+
+| name |
++------+
+| Will |
+| Jane |
+| Bill |
+| Zack |
++------+
+```
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
