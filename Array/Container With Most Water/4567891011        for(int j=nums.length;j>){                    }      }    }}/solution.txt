@@ -1,0 +1,8 @@
+        for(int j=nums.length;j>){
+
+            
+        }
+      }
+
+    }
+}
