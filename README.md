@@ -23,6 +23,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 14 | [Longest Common Prefix](./Array/Longest%20Common%20Prefix/) | Easy |
 | 16 | [3Sum Closest](./Array/3Sum%20Closest/) | Easy |
 | 26 | [Remove Duplicates from Sorted Array](./Array/Remove%20Duplicates%20from%20Sorted%20Array/) | Easy |
+| 27 | [Remove Element](./Array/Remove%20Element/) | Easy |
 | 200 | [Number of Islands](./Array/Number%20of%20Islands/) | Medium |
 | 217 | [Contains Duplicate](./Array/Contains%20Duplicate/) | Easy |
 | 283 | [Move Zeroes](./Array/Move%20Zeroes/) | Easy |
